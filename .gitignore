@@ -1,21 +1,27 @@
-# Generated files
-*.s
-*.o
-*.d
+# Generated assembler sources
+src/*.s
+asm/*.s
+
+# mbt build state
+.mbt/
+contrib/
+dist/
 
 # Build artifacts
+*.o
+*.d
 *.jcl
 .build-warnings
 
 # IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
 *.geany
 compile_commands.json
 
 # Environment
 .env
-
-# Claude Code
-CLAUDE.md
-
-# OS
 .DS_Store

@@ -1,0 +1,11 @@
+name: Build
+
+on:
+  push:
+    branches: ["main", "feature/**"]
+  pull_request:
+    branches: ["main"]
+
+jobs:
+  build:
+    uses: mvslovers/mbt/.github/workflows/build.yml@main

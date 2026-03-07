@@ -20,6 +20,7 @@ dist/
 *.swo
 *~
 *.geany
+CLAUDE.md
 compile_commands.json
 
 # Environment

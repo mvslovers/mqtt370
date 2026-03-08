@@ -6,6 +6,14 @@ type = "library"
 [build]
 cflags = ["-DLUA_USE_C89", "-DLUA_USE_JUMPTABLE=0"]
 
+[mvs.build.datasets.source]
+suffix = "SOURCE"
+dsorg = "PO"
+recfm = "FB"
+lrecl = 80
+blksize = 3120
+space = ["TRK", 30, 10, 50]
+
 [mvs.build.datasets.punch]
 suffix = "OBJECT"
 dsorg = "PO"

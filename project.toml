@@ -3,9 +3,6 @@ name = "mqtt370"
 version = "1.0.1-dev"
 type = "library"
 
-[build]
-cflags = ["-DLUA_USE_C89", "-DLUA_USE_JUMPTABLE=0"]
-
 [mvs.build.datasets.source]
 suffix = "SOURCE"
 dsorg = "PO"
@@ -31,7 +28,7 @@ blksize = 32760
 space = ["TRK", 30, 10, 50]
 
 [dependencies]
-"mvslovers/crent370" = ">=1.0.0"
+"mvslovers/crent370" = ">=1.0.4"
 
 [artifacts]
 mvs = true
